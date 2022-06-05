@@ -36,3 +36,6 @@ body{
     color: rgb(24,26,24);
 
 }
+.floatAboveEverything {
+	z-index: 1000;
+}

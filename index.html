@@ -3,30 +3,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Home</title>
+    <title id="hometitle">Home</title>
     <link rel="icon" type="image/x-icon" href="logos/sitelogo.png">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header style="text-align: center; ">
-        <a href="index.html"><button class="topbtn" style="margin-top: 0%;" >Home</button></a>
-        <a href="projects.html"><button class="topbtn" style="margin-top: 0%;" >Projects</button></a>
-        <a href="schoolprojects.html"><button class="topbtn" style="margin-top: 0%;" >School projects</button></a>
-        <a href="index.html"><button class="topbtn" style="margin-top: 0%;" >...</button></a> <!--    Soon     -->
-        <a href="index.html"><button class="topbtn" style="margin-top: 0%;" >...</button></a> <!--    Soon     -->
-        <a href="aboutme.html"><button class="topbtn" style="margin-top: 0%;" >About me</button></a> 
+    <!-- Header -->
+    <header style="text-align: center">
+        <a href="index.html"><button class="topbtn" style="margin-top: 0%;" id="home">Home</button></a>
+        <a href="projects.html"><button class="topbtn" style="margin-top: 0%;" id="projects">Projects</button></a>
+        <a href="schoolprojects.html"><button class="topbtn" style="margin-top: 0%;" id="schoolprojects">School projects</button></a>
+        <a href="blog.html"><button class="topbtn" style="margin-top: 0%;" id="blog">Blog</button></a>
+        <a href="index.html"><button class="topbtn" style="margin-top: 0%;" id="soon">Soon</button></a> <!--    Soon     -->
+        <a href="aboutme.html"><button class="topbtn" style="margin-top: 0%;" id="aboutme">About me</button></a>
     </header>
+    <!-- Language change buttons -->
+    <p align="center" style="margin-top: 1%;">
+        <a href="#en" data-reload><img src="flags/gbflag.jpg" height="2%" width="2%" style="display: inline; aspect-ratio: 5/3"></a>
+        <a href="#ee" data-reload><img src="flags/eeflag.png" height="2%" width="2%" style="display: inline; aspect-ratio: 5/3"></a>
+        <a href="#ru" data-reload><img src="flags/ruflag.png" height="2%" width="2%" style="display: inline; aspect-ratio: 5/3;"></a>
+    </p>
+    <!-- Nickname heading -->
     <h1 style="font-size:40px;color: #fff; text-align: center; margin-top: 10%;">
         ドミトリー
     </h1>
+    <!-- Link buttons -->
     <p align="center">
         <button class="btn rounded-full" style="margin-top:2%;padding-right:25px" onclick="window.open('https://steamcommunity.com/id/Dom1tori');"> <img src="logos/steamlogo.png" height="25" width="25" style="float:left"> Steam</button>
         <button class="btn rounded-full" style="padding-right:25px"onclick="window.open('https://t.me/dimaartik');"><img src="logos/tglogo.png" height="25" width="25" style="float:left">Telegram</button>
         <button class="btn rounded-full" style="padding-right:25px"onclick="window.open('https://discord.gg/Wha7w3Gd2v');"><img src="logos/dslogo.png" height="30" width="30" style="float:left">Discord</button>
 
     </p>
+    <!-- Language changer -->
+    <script type="text/javascript" src="langs.js"></script>
 </body>
+<!-- Footer -->
 <footer style="border-top: 1px solid rgb(59, 59, 59); margin-top: 250px; text-align: center; ">
+    <!-- Joke company thingy -->
     <p style="padding:4%; color: #58a6ff">
         <a href="https://t.me/dimaartik">Dmitri Artamonov   © 2022 DA, Inc.</a>
     </p>
