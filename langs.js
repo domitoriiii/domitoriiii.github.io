@@ -94,3 +94,4 @@ for (i = 0; i <= dataReload.length - 1; i++) {
             }, 150)
         }
     }
+
